@@ -6,14 +6,14 @@ if (int.TryParse(input, out var age))
 {
 	if (age < 18)
 	{
-		Console.WriteLine("Access denied. You must be at least 18 years old.");
+		Console.WriteLine("\nAccess denied. You must be at least 18 years old.");
 	}
     else
     {
-        Console.WriteLine("Access granted.");
+        Console.WriteLine("\nAccess granted.");
     }
 }
 else
 {
-    Console.WriteLine("Invalid input!");
+    Console.WriteLine("\nInvalid input!");
 }
